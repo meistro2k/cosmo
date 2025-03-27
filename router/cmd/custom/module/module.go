@@ -26,6 +26,7 @@ type MyModule struct {
 
 func (m *MyModule) Provision(ctx *core.ModuleContext) error {
 	// Provision your module here, validate config etc.
+	ctx.Logger.Info("AAAAA BBBBB CCCCC")
 
 	if m.Value == 0 {
 		ctx.Logger.Error("Value must be greater than 0")
