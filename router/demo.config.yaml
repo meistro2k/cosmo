@@ -20,3 +20,17 @@ events:
 modules:
   myModule:
     value: 1
+
+traffic_shaping:
+  all: # Rules are applied to all subgraph requests.
+    # Subgraphs transport options
+    request_timeout: 1s
+    dial_timeout: 1s
+    keep_alive_probe_interval: 5s
+    # Retry
+    retry: # Rule is only applied to GraphQL operations of type "query"
+      enabled: true
+      algorithm: "backoff_jitter"
+      max_attempts: 1
+      interval: 3s
+      max_duration: 1s

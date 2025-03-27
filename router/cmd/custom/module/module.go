@@ -78,6 +78,8 @@ func (m *MyModule) RouterOnRequest(ctx core.RequestContext, next http.Handler) {
 	logger := ctx.Logger()
 	logger.Info("Test RouterOnRequest custom module logs")
 
+	ctx.ResponseWriter().Header().Set("myHeader", "abc123")
+
 	next.ServeHTTP(ctx.ResponseWriter(), ctx.Request())
 }
 
