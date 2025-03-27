@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/wundergraph/cosmo/router/pkg/authentication"
+	"github.com/meistro2k/cosmo/router/pkg/authentication"
 )
 
 var (

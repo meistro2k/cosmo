@@ -13,7 +13,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/wundergraph/cosmo/router/core"
+	"github.com/meistro2k/cosmo/router/core"
 	"go.uber.org/zap"
 )
 

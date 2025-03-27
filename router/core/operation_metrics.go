@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	rotel "github.com/wundergraph/cosmo/router/pkg/otel"
+	rotel "github.com/meistro2k/cosmo/router/pkg/otel"
 	otelmetric "go.opentelemetry.io/otel/metric"
 
 	"go.uber.org/zap"

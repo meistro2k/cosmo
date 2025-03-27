@@ -5,10 +5,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/wundergraph/cosmo/router/pkg/routerconfig"
+	"github.com/meistro2k/cosmo/router/pkg/routerconfig"
 
-	nodev1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/node/v1"
-	"github.com/wundergraph/cosmo/router/pkg/controlplane"
+	nodev1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/node/v1"
+	"github.com/meistro2k/cosmo/router/pkg/controlplane"
 	"go.uber.org/zap"
 )
 

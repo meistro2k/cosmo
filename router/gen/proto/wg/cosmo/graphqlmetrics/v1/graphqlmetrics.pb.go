@@ -9,7 +9,7 @@
 package graphqlmetricsv1
 
 import (
-	_ "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/common"
+	_ "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

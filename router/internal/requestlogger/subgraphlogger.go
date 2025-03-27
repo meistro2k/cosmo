@@ -1,7 +1,7 @@
 package requestlogger
 
 import (
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/wundergraph/cosmo/router/cmd"
+	"github.com/meistro2k/cosmo/router/cmd"
 )
 
 func main() {

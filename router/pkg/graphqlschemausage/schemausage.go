@@ -8,7 +8,7 @@ import (
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"
 
-	graphqlmetrics "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
+	graphqlmetrics "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
 )
 
 func GetTypeFieldUsageInfo(operationPlan plan.Plan) []*graphqlmetrics.TypeFieldUsageInfo {

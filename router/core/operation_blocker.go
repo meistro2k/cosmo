@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/expr-lang/expr/vm"
-	"github.com/wundergraph/cosmo/router/internal/expr"
+	"github.com/meistro2k/cosmo/router/internal/expr"
 	"go.uber.org/zap"
 	"reflect"
 )

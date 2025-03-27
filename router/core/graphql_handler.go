@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	rErrors "github.com/wundergraph/cosmo/router/internal/errors"
-	rotel "github.com/wundergraph/cosmo/router/pkg/otel"
+	rErrors "github.com/meistro2k/cosmo/router/internal/errors"
+	rotel "github.com/meistro2k/cosmo/router/pkg/otel"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/datasource/graphql_datasource"
 
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/graphqlerrors"
@@ -19,8 +19,8 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"
 
-	"github.com/wundergraph/cosmo/router/pkg/config"
-	"github.com/wundergraph/cosmo/router/pkg/statistics"
+	"github.com/meistro2k/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/statistics"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/plan"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"

@@ -3,9 +3,9 @@ package core
 import (
 	"fmt"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/wundergraph/cosmo/router/internal/requestlogger"
-	"github.com/wundergraph/cosmo/router/pkg/config"
-	"github.com/wundergraph/cosmo/router/pkg/logging"
+	"github.com/meistro2k/cosmo/router/internal/requestlogger"
+	"github.com/meistro2k/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/logging"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"net/http"

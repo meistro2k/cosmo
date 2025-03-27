@@ -20,9 +20,9 @@ import (
 
 	semconv "go.opentelemetry.io/otel/semconv/v1.21.0"
 
-	"github.com/wundergraph/cosmo/router/pkg/metric"
-	"github.com/wundergraph/cosmo/router/pkg/otel"
-	"github.com/wundergraph/cosmo/router/pkg/trace"
+	"github.com/meistro2k/cosmo/router/pkg/metric"
+	"github.com/meistro2k/cosmo/router/pkg/otel"
+	"github.com/meistro2k/cosmo/router/pkg/trace"
 
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/pool"
@@ -30,8 +30,8 @@ import (
 	otrace "go.opentelemetry.io/otel/trace"
 	"go.uber.org/zap"
 
-	"github.com/wundergraph/cosmo/router/internal/docker"
-	"github.com/wundergraph/cosmo/router/internal/retrytransport"
+	"github.com/meistro2k/cosmo/router/internal/docker"
+	"github.com/meistro2k/cosmo/router/internal/retrytransport"
 )
 
 type (

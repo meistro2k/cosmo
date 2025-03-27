@@ -1,8 +1,8 @@
 package core
 
 import (
-	"github.com/wundergraph/cosmo/router/pkg/config"
-	"github.com/wundergraph/cosmo/router/pkg/otel"
+	"github.com/meistro2k/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/otel"
 	"go.opentelemetry.io/otel/attribute"
 )
 

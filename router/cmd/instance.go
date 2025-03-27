@@ -8,12 +8,12 @@ import (
 
 	"github.com/KimMachineGun/automemlimit/memlimit"
 	"github.com/dustin/go-humanize"
-	"github.com/wundergraph/cosmo/router/core"
-	"github.com/wundergraph/cosmo/router/pkg/authentication"
-	"github.com/wundergraph/cosmo/router/pkg/config"
-	"github.com/wundergraph/cosmo/router/pkg/controlplane/selfregister"
-	"github.com/wundergraph/cosmo/router/pkg/cors"
-	"github.com/wundergraph/cosmo/router/pkg/logging"
+	"github.com/meistro2k/cosmo/router/core"
+	"github.com/meistro2k/cosmo/router/pkg/authentication"
+	"github.com/meistro2k/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/controlplane/selfregister"
+	"github.com/meistro2k/cosmo/router/pkg/cors"
+	"github.com/meistro2k/cosmo/router/pkg/logging"
 	"go.uber.org/automaxprocs/maxprocs"
 	"go.uber.org/zap"
 )

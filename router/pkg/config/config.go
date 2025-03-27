@@ -9,8 +9,8 @@ import (
 	"github.com/goccy/go-yaml"
 	"github.com/joho/godotenv"
 
-	"github.com/wundergraph/cosmo/router/internal/unique"
-	"github.com/wundergraph/cosmo/router/pkg/otel/otelconfig"
+	"github.com/meistro2k/cosmo/router/internal/unique"
+	"github.com/meistro2k/cosmo/router/pkg/otel/otelconfig"
 )
 
 const (

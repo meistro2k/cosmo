@@ -9,7 +9,7 @@ import (
 
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/wundergraph/cosmo/router/internal/persistedoperation"
+	"github.com/meistro2k/cosmo/router/internal/persistedoperation"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	"go.opentelemetry.io/otel/trace"
 )

@@ -1,8 +1,8 @@
 package trace
 
 import (
-	"github.com/wundergraph/cosmo/router/pkg/config"
-	"github.com/wundergraph/cosmo/router/pkg/otel/otelconfig"
+	"github.com/meistro2k/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/otel/otelconfig"
 	"go.opentelemetry.io/otel/attribute"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	"net/url"

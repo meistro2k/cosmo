@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	nodev1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/node/v1"
+	nodev1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/node/v1"
 )
 
 // LoadStringVariable is a shorthand for LookupStringVariable when you do not care about

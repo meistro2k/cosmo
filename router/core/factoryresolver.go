@@ -12,7 +12,7 @@ import (
 
 	"github.com/buger/jsonparser"
 
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 
 	"github.com/jensneuse/abstractlogger"
 	"go.uber.org/zap"
@@ -22,8 +22,8 @@ import (
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/datasource/staticdatasource"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/plan"
 
-	"github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/common"
-	nodev1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/node/v1"
+	"github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/common"
+	nodev1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/node/v1"
 )
 
 type Loader struct {

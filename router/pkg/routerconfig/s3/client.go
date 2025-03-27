@@ -9,9 +9,9 @@ import (
 
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/wundergraph/cosmo/router/pkg/controlplane/configpoller"
-	"github.com/wundergraph/cosmo/router/pkg/execution_config"
-	"github.com/wundergraph/cosmo/router/pkg/routerconfig"
+	"github.com/meistro2k/cosmo/router/pkg/controlplane/configpoller"
+	"github.com/meistro2k/cosmo/router/pkg/execution_config"
+	"github.com/meistro2k/cosmo/router/pkg/routerconfig"
 )
 
 type Option func(*Client)

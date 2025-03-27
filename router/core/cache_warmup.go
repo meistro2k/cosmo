@@ -15,8 +15,8 @@ import (
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/ast"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 
-	nodev1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/node/v1"
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	nodev1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/node/v1"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 )
 
 type CacheWarmupItem struct {

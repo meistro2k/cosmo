@@ -5,10 +5,10 @@ import (
 	otelmetric "go.opentelemetry.io/otel/metric"
 	"strconv"
 
-	graphqlmetricsv1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
-	"github.com/wundergraph/cosmo/router/internal/graphqlmetrics"
-	"github.com/wundergraph/cosmo/router/internal/unsafebytes"
-	"github.com/wundergraph/cosmo/router/pkg/metric"
+	graphqlmetricsv1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
+	"github.com/meistro2k/cosmo/router/internal/graphqlmetrics"
+	"github.com/meistro2k/cosmo/router/internal/unsafebytes"
+	"github.com/meistro2k/cosmo/router/pkg/metric"
 	"go.uber.org/zap"
 )
 

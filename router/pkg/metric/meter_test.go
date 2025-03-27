@@ -2,7 +2,7 @@ package metric
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/wundergraph/cosmo/router/pkg/otel/otelconfig"
+	"github.com/meistro2k/cosmo/router/pkg/otel/otelconfig"
 	sdkmetric "go.opentelemetry.io/otel/sdk/metric"
 	"go.opentelemetry.io/otel/sdk/metric/metricdata"
 	"go.uber.org/zap"

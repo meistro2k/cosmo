@@ -3,7 +3,7 @@ package graphqlmetrics
 import (
 	"slices"
 
-	graphqlmetrics "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
+	graphqlmetrics "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
 )
 
 func AggregateSchemaUsageInfoBatch(batch []*graphqlmetrics.SchemaUsageInfo) *graphqlmetrics.PublishAggregatedGraphQLRequestMetricsRequest {

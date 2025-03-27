@@ -3,9 +3,9 @@ package core
 import (
 	"errors"
 	"github.com/stretchr/testify/require"
-	"github.com/wundergraph/cosmo/router/internal/expr"
-	"github.com/wundergraph/cosmo/router/internal/requestlogger"
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/internal/expr"
+	"github.com/meistro2k/cosmo/router/internal/requestlogger"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"
 	"go.uber.org/zap"
 	"net/http"

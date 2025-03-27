@@ -9,7 +9,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/collectors"
-	"github.com/wundergraph/cosmo/router/pkg/otel/otelconfig"
+	"github.com/meistro2k/cosmo/router/pkg/otel/otelconfig"
 	"go.opentelemetry.io/otel/attribute"
 	otelprom "go.opentelemetry.io/otel/exporters/prometheus"
 

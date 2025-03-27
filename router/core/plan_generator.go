@@ -8,7 +8,7 @@ import (
 	"os"
 
 	log "github.com/jensneuse/abstractlogger"
-	nodev1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/node/v1"
+	nodev1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/node/v1"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/ast"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/astnormalization"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/astparser"
@@ -22,9 +22,9 @@ import (
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"
 	"go.uber.org/zap"
 
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 
-	"github.com/wundergraph/cosmo/router/pkg/execution_config"
+	"github.com/meistro2k/cosmo/router/pkg/execution_config"
 )
 
 type PlanGenerator struct {

@@ -3,8 +3,8 @@ package trace
 import (
 	"bytes"
 	"context"
-	"github.com/wundergraph/cosmo/router/pkg/otel"
-	"github.com/wundergraph/cosmo/router/pkg/trace/tracetest"
+	"github.com/meistro2k/cosmo/router/pkg/otel"
+	"github.com/meistro2k/cosmo/router/pkg/trace/tracetest"
 	"io"
 	"net/http"
 	"net/http/httptest"

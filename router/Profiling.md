@@ -75,9 +75,9 @@ Showing top 20 nodes out of 69
  1032.02kB  7.67% 58.33%  1032.02kB  7.67%  github.com/wundergraph/graphql-go-tools/v2/pkg/astparser.NewTokenizer
  1031.14kB  7.66% 65.99%  1031.14kB  7.66%  github.com/wundergraph/graphql-go-tools/v2/pkg/astparser.(*Parser).parseEnumValueDefinition
   809.97kB  6.02% 72.01%   809.97kB  6.02%  github.com/dgraph-io/ristretto/z.(*Bloom).Size (inline)
-  650.62kB  4.83% 76.84%   650.62kB  4.83%  github.com/dgraph-io/ristretto.NewCache[go.shape.uint64,go.shape.struct { github.com/wundergraph/cosmo/router/core.operationID uint64; github.com/wundergraph/cosmo/router/core.normalizedRepresentation string; github.com/wundergraph/cosmo/router/core.operationType string }]
+  650.62kB  4.83% 76.84%   650.62kB  4.83%  github.com/dgraph-io/ristretto.NewCache[go.shape.uint64,go.shape.struct { github.com/meistro2k/cosmo/router/core.operationID uint64; github.com/meistro2k/cosmo/router/core.normalizedRepresentation string; github.com/meistro2k/cosmo/router/core.operationType string }]
   544.67kB  4.05% 80.89%   544.67kB  4.05%  compress/flate.(*compressor).initDeflate (inline)
-  520.04kB  3.86% 84.76%   520.04kB  3.86%  github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/node/v1.init
+  520.04kB  3.86% 84.76%   520.04kB  3.86%  github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/node/v1.init
      515kB  3.83% 88.58%      515kB  3.83%  github.com/wundergraph/graphql-go-tools/v2/pkg/ast.(*Document).NextRefIndex
   512.31kB  3.81% 92.39%   512.31kB  3.81%  encoding/gob.map.init.3
   512.25kB  3.81% 96.20%   512.25kB  3.81%  github.com/wundergraph/graphql-go-tools/v2/pkg/astvisitor.(*Walker).RegisterEnterDocumentVisitor

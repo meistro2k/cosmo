@@ -7,7 +7,7 @@ import (
 	"github.com/cespare/xxhash/v2"
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/nats.go/jetstream"
-	"github.com/wundergraph/cosmo/router/pkg/pubsub"
+	"github.com/meistro2k/cosmo/router/pkg/pubsub"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/datasource/pubsub_datasource"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 	"go.uber.org/zap"

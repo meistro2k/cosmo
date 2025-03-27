@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/common"
-	nodev1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/node/v1"
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/common"
+	nodev1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/node/v1"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 )
 
 func TestOverrideURLConfig(t *testing.T) {

@@ -3,12 +3,12 @@ package core
 import (
 	"errors"
 	"fmt"
-	"github.com/wundergraph/cosmo/router/pkg/config"
-	"github.com/wundergraph/cosmo/router/pkg/controlplane/configpoller"
-	"github.com/wundergraph/cosmo/router/pkg/execution_config"
-	"github.com/wundergraph/cosmo/router/pkg/routerconfig"
-	configCDNProvider "github.com/wundergraph/cosmo/router/pkg/routerconfig/cdn"
-	configs3Provider "github.com/wundergraph/cosmo/router/pkg/routerconfig/s3"
+	"github.com/meistro2k/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/controlplane/configpoller"
+	"github.com/meistro2k/cosmo/router/pkg/execution_config"
+	"github.com/meistro2k/cosmo/router/pkg/routerconfig"
+	configCDNProvider "github.com/meistro2k/cosmo/router/pkg/routerconfig/cdn"
+	configs3Provider "github.com/meistro2k/cosmo/router/pkg/routerconfig/s3"
 	"go.uber.org/zap"
 )
 

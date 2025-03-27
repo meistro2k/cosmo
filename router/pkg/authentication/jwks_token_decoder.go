@@ -13,7 +13,7 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
 
-	"github.com/wundergraph/cosmo/router/internal/httpclient"
+	"github.com/meistro2k/cosmo/router/internal/httpclient"
 )
 
 type TokenDecoder interface {

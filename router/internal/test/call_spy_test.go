@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/wundergraph/cosmo/router/internal/test"
+	"github.com/meistro2k/cosmo/router/internal/test"
 )
 
 func TestCallSpy(t *testing.T) {

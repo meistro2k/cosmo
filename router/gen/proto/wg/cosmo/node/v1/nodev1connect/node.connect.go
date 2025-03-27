@@ -8,7 +8,7 @@ import (
 	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
-	v1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/node/v1"
+	v1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/node/v1"
 	http "net/http"
 	strings "strings"
 )

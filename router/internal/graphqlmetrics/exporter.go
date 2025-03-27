@@ -8,8 +8,8 @@ import (
 
 	"connectrpc.com/connect"
 	"github.com/cloudflare/backoff"
-	graphqlmetrics "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
-	"github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1/graphqlmetricsv1connect"
+	graphqlmetrics "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
+	"github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1/graphqlmetricsv1connect"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 )

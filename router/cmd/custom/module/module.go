@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/wundergraph/cosmo/router/core"
+	"github.com/meistro2k/cosmo/router/core"
 	"go.uber.org/zap"
 )
 
@@ -68,6 +68,8 @@ func (m *MyModule) OnOriginRequest(request *http.Request, ctx core.RequestContex
 
 	// Set a custom value on the request context. See OnOriginResponse
 	ctx.Set("myValue", "myValue")
+
+	ctx.Logger().Info("AAAAAA Test OnOriginRequest custom module logs")
 
 	return request, nil
 }

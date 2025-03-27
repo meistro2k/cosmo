@@ -16,3 +16,7 @@ events:
       - id: my-kafka
         brokers:
           - "localhost:9092"
+
+modules:
+  myModule:
+    value: 1

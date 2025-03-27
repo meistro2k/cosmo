@@ -2,7 +2,7 @@ package health
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/wundergraph/cosmo/router/internal/test"
+	"github.com/meistro2k/cosmo/router/internal/test"
 	"go.uber.org/zap"
 	"net/http"
 	"net/http/httptest"

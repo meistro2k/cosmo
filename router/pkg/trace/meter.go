@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/wundergraph/cosmo/router/pkg/otel/otelconfig"
-	"github.com/wundergraph/cosmo/router/pkg/trace/redact"
+	"github.com/meistro2k/cosmo/router/pkg/otel/otelconfig"
+	"github.com/meistro2k/cosmo/router/pkg/trace/redact"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"

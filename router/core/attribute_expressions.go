@@ -6,8 +6,8 @@ import (
 
 	"github.com/expr-lang/expr/ast"
 	"github.com/expr-lang/expr/vm"
-	"github.com/wundergraph/cosmo/router/internal/expr"
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/internal/expr"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 	"go.opentelemetry.io/otel/attribute"
 )
 

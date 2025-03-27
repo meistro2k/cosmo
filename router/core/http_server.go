@@ -11,7 +11,7 @@ import (
 	"github.com/go-chi/chi/v5"
 	"go.uber.org/zap"
 
-	"github.com/wundergraph/cosmo/router/pkg/health"
+	"github.com/meistro2k/cosmo/router/pkg/health"
 )
 
 type server struct {

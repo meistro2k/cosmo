@@ -1,7 +1,7 @@
 package execution_config
 
 import (
-	nodev1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/node/v1"
+	nodev1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/node/v1"
 	"google.golang.org/protobuf/encoding/protojson"
 	"os"
 )

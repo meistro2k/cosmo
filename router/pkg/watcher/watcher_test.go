@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/wundergraph/cosmo/router/internal/test"
-	"github.com/wundergraph/cosmo/router/pkg/watcher"
+	"github.com/meistro2k/cosmo/router/internal/test"
+	"github.com/meistro2k/cosmo/router/pkg/watcher"
 	"go.uber.org/goleak"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"

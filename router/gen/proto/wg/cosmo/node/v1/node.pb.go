@@ -7,7 +7,7 @@
 package nodev1
 
 import (
-	common "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/common"
+	common "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

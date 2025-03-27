@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 	"github.com/redis/go-redis/v9"
-	"github.com/wundergraph/cosmo/router/internal/persistedoperation/operationstorage/redis"
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/internal/persistedoperation/operationstorage/redis"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 	"go.uber.org/zap"
 	"time"
 )

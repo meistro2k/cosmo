@@ -8,9 +8,9 @@ You can see we will load the default Router and your custom module.
 package main
 
 import (
-	routercmd "github.com/wundergraph/cosmo/router/cmd"
+	routercmd "github.com/meistro2k/cosmo/router/cmd"
 	// Import your modules here
-	_ "github.com/wundergraph/cosmo/router/cmd/custom/module"
+	_ "github.com/meistro2k/cosmo/router/cmd/custom/module"
 )
 
 func main() {

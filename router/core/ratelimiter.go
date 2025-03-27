@@ -6,14 +6,14 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	rd "github.com/wundergraph/cosmo/router/internal/persistedoperation/operationstorage/redis"
+	rd "github.com/meistro2k/cosmo/router/internal/persistedoperation/operationstorage/redis"
 	"io"
 	"reflect"
 	"sync"
 
 	"github.com/expr-lang/expr/vm"
 	"github.com/go-redis/redis_rate/v10"
-	"github.com/wundergraph/cosmo/router/internal/expr"
+	"github.com/meistro2k/cosmo/router/internal/expr"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 )
 

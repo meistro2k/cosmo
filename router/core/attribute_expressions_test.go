@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/wundergraph/cosmo/router/internal/expr"
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/internal/expr"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 )
 
 func TestVisitorCheckForRequestAuthAccess_Visit(t *testing.T) {

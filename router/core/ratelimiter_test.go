@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/wundergraph/cosmo/router/internal/expr"
-	"github.com/wundergraph/cosmo/router/pkg/authentication"
+	"github.com/meistro2k/cosmo/router/internal/expr"
+	"github.com/meistro2k/cosmo/router/pkg/authentication"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 )
 

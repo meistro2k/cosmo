@@ -1,4 +1,4 @@
-module github.com/wundergraph/cosmo/router
+module github.com/meistro2k/cosmo/router
 
 go 1.23
 
@@ -70,6 +70,7 @@ require (
 	github.com/santhosh-tekuri/jsonschema/v6 v6.0.1
 	github.com/tonglil/opentelemetry-go-datadog-propagator v0.1.3
 	github.com/wundergraph/astjson v0.0.0-20250106123708-be463c97e083
+	github.com/meistro2k/cosmo/router v0.0.0-20250326151326-b35b92af3c90
 	go.uber.org/goleak v1.3.0
 	go.uber.org/ratelimit v0.3.1
 	golang.org/x/exp v0.0.0-20240613232115-7f521ea00fb8
@@ -78,7 +79,6 @@ require (
 )
 
 require (
-	github.com/99designs/gqlgen v0.17.49 // indirect
 	github.com/alicebob/gopher-json v0.0.0-20230218143504-906a9b012302 // indirect
 	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -127,12 +127,12 @@ require (
 	github.com/sergi/go-diff v1.3.1 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
+	github.com/sosodev/duration v1.3.1 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.12 // indirect
 	github.com/tklauser/numcpus v0.6.1 // indirect
 	github.com/twmb/franz-go/pkg/kmsg v1.7.0 // indirect
-	github.com/vektah/gqlparser/v2 v2.5.16 // indirect
 	github.com/yuin/gopher-lua v1.1.1 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.23.1 // indirect

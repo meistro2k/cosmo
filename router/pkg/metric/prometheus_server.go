@@ -5,7 +5,7 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/wundergraph/cosmo/router/pkg/otel"
+	"github.com/meistro2k/cosmo/router/pkg/otel"
 	"go.opentelemetry.io/otel/attribute"
 	"go.uber.org/zap"
 	"net/http"

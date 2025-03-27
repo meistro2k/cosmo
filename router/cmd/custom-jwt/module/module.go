@@ -7,7 +7,7 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 	"go.uber.org/zap"
 
-	"github.com/wundergraph/cosmo/router/core"
+	"github.com/meistro2k/cosmo/router/core"
 )
 
 func init() {

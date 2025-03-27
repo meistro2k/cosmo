@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/wundergraph/cosmo/router/internal/persistedoperation/apq"
-	"github.com/wundergraph/cosmo/router/internal/persistedoperation/operationstorage"
+	"github.com/meistro2k/cosmo/router/internal/persistedoperation/apq"
+	"github.com/meistro2k/cosmo/router/internal/persistedoperation/operationstorage"
 	"go.uber.org/zap"
 )
 

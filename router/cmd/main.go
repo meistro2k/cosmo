@@ -10,11 +10,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/wundergraph/cosmo/router/core"
-	"github.com/wundergraph/cosmo/router/internal/versioninfo"
-	"github.com/wundergraph/cosmo/router/pkg/config"
-	"github.com/wundergraph/cosmo/router/pkg/logging"
-	"github.com/wundergraph/cosmo/router/pkg/profile"
+	"github.com/meistro2k/cosmo/router/core"
+	"github.com/meistro2k/cosmo/router/internal/versioninfo"
+	"github.com/meistro2k/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/logging"
+	"github.com/meistro2k/cosmo/router/pkg/profile"
 
 	"go.uber.org/zap"
 )

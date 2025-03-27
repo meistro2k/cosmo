@@ -2,7 +2,7 @@ package trace
 
 import (
 	"context"
-	rotel "github.com/wundergraph/cosmo/router/pkg/otel"
+	rotel "github.com/meistro2k/cosmo/router/pkg/otel"
 	"go.opentelemetry.io/otel/codes"
 	"net/http"
 	"strings"

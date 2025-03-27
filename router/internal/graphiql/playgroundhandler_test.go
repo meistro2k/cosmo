@@ -2,7 +2,7 @@ package graphiql
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/wundergraph/cosmo/router/internal/test"
+	"github.com/meistro2k/cosmo/router/internal/test"
 	"net/http"
 	"net/http/httptest"
 	"testing"

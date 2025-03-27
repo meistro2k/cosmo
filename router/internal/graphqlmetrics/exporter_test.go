@@ -10,8 +10,8 @@ import (
 
 	"connectrpc.com/connect"
 	"github.com/stretchr/testify/require"
-	graphqlmetricsv1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
-	"github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1/graphqlmetricsv1connect"
+	graphqlmetricsv1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
+	"github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1/graphqlmetricsv1connect"
 	"go.uber.org/zap"
 )
 

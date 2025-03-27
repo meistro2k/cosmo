@@ -3,7 +3,7 @@ package metric
 import (
 	"context"
 	"errors"
-	"github.com/wundergraph/cosmo/router/pkg/statistics"
+	"github.com/meistro2k/cosmo/router/pkg/statistics"
 	"go.opentelemetry.io/otel/attribute"
 	otelmetric "go.opentelemetry.io/otel/metric"
 	"go.opentelemetry.io/otel/sdk/metric"

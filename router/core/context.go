@@ -17,11 +17,11 @@ import (
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/datasource/httpclient"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 
-	graphqlmetrics "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
-	"github.com/wundergraph/cosmo/router/internal/expr"
-	"github.com/wundergraph/cosmo/router/pkg/authentication"
-	"github.com/wundergraph/cosmo/router/pkg/config"
-	ctrace "github.com/wundergraph/cosmo/router/pkg/trace"
+	graphqlmetrics "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/graphqlmetrics/v1"
+	"github.com/meistro2k/cosmo/router/internal/expr"
+	"github.com/meistro2k/cosmo/router/pkg/authentication"
+	"github.com/meistro2k/cosmo/router/pkg/config"
+	ctrace "github.com/meistro2k/cosmo/router/pkg/trace"
 )
 
 type contextKey int

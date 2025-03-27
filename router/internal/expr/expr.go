@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/expr-lang/expr/file"
-	"github.com/wundergraph/cosmo/router/pkg/authentication"
+	"github.com/meistro2k/cosmo/router/pkg/authentication"
 	"net/http"
 	"net/url"
 )

@@ -11,9 +11,9 @@ import (
 
 	"github.com/KimMachineGun/automemlimit/memlimit"
 	"github.com/dustin/go-humanize"
-	"github.com/wundergraph/cosmo/router/core"
-	"github.com/wundergraph/cosmo/router/pkg/logging"
-	"github.com/wundergraph/cosmo/router/pkg/plan_generator"
+	"github.com/meistro2k/cosmo/router/core"
+	"github.com/meistro2k/cosmo/router/pkg/logging"
+	"github.com/meistro2k/cosmo/router/pkg/plan_generator"
 	"go.uber.org/automaxprocs/maxprocs"
 	"go.uber.org/zap"
 )

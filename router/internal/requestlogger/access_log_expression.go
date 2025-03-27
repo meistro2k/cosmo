@@ -3,8 +3,8 @@ package requestlogger
 import (
 	"fmt"
 	"github.com/expr-lang/expr/vm"
-	exprlocal "github.com/wundergraph/cosmo/router/internal/expr"
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	exprlocal "github.com/meistro2k/cosmo/router/internal/expr"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 )
 
 type ExpressionAttribute struct {

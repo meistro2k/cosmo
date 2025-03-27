@@ -3,7 +3,7 @@ package routerconfig
 import (
 	"context"
 	"fmt"
-	nodev1 "github.com/wundergraph/cosmo/router/gen/proto/wg/cosmo/node/v1"
+	nodev1 "github.com/meistro2k/cosmo/router/gen/proto/wg/cosmo/node/v1"
 	"time"
 )
 

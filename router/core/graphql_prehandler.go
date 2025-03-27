@@ -32,12 +32,12 @@ import (
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/engine/resolve"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/graphqlerrors"
 
-	"github.com/wundergraph/cosmo/router/internal/expr"
-	"github.com/wundergraph/cosmo/router/internal/persistedoperation"
-	"github.com/wundergraph/cosmo/router/pkg/art"
-	"github.com/wundergraph/cosmo/router/pkg/config"
-	"github.com/wundergraph/cosmo/router/pkg/otel"
-	rtrace "github.com/wundergraph/cosmo/router/pkg/trace"
+	"github.com/meistro2k/cosmo/router/internal/expr"
+	"github.com/meistro2k/cosmo/router/internal/persistedoperation"
+	"github.com/meistro2k/cosmo/router/pkg/art"
+	"github.com/meistro2k/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/pkg/otel"
+	rtrace "github.com/meistro2k/cosmo/router/pkg/trace"
 )
 
 type PreHandlerOptions struct {

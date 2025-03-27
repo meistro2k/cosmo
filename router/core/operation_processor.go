@@ -32,9 +32,9 @@ import (
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/operationreport"
 	"github.com/wundergraph/graphql-go-tools/v2/pkg/variablesvalidation"
 
-	"github.com/wundergraph/cosmo/router/internal/persistedoperation"
-	"github.com/wundergraph/cosmo/router/internal/unsafebytes"
-	"github.com/wundergraph/cosmo/router/pkg/config"
+	"github.com/meistro2k/cosmo/router/internal/persistedoperation"
+	"github.com/meistro2k/cosmo/router/internal/unsafebytes"
+	"github.com/meistro2k/cosmo/router/pkg/config"
 )
 
 var (

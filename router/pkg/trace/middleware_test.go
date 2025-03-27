@@ -2,7 +2,7 @@ package trace
 
 import (
 	"github.com/go-chi/chi/v5"
-	"github.com/wundergraph/cosmo/router/pkg/trace/tracetest"
+	"github.com/meistro2k/cosmo/router/pkg/trace/tracetest"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"net/http"
 	"net/http/httptest"
